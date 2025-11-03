@@ -82,5 +82,5 @@ boat1 = Boat("Sea Explorer", "Yacht") # object of Boat class
 airplane1 = Airplane("Sky High", "Jet") # object of Airplane class
 car1 = Car("Road Runner", "Sedan") # object of Car class
 
-for vehicle in (vehicle1, boat1, airplane1, car1):
+for vehicle in ( boat1, airplane1, car1):
     vehicle.moving()

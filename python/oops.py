@@ -9,12 +9,12 @@ class Blueprint:
 house1 = Blueprint( "Arman Villa", 3, 6) # object instantiate
 house2 = Blueprint( "Ghatka Apartment", 2, 10) # object instantiate
 
-# print(f'House name is {house1.name}, Floor is {house1.floor}, Available rooms {house1.room}')
-# print(f'House name is {house2.name}, Floor is {house2.floor}, Available rooms {house2.room}')
+print(f'House name is {house1.name}, Floor is {house1.floor}, Available rooms {house1.room}')
+print(f'House name is {house2.name}, Floor is {house2.floor}, Available rooms {house2.room}')
 
 
 class Car:
-    def __init__(self, name,  year, color, type, seater):
+    def __init__(self, name, year, color, type, seater):
         self.name = name
         self.brand = "Honda"
         self.year = year
